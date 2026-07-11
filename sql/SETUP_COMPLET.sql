@@ -102,12 +102,12 @@ CREATE TABLE public.admin_profiles (
 
 CREATE TABLE public.parametres (
   id             INTEGER PRIMARY KEY DEFAULT 1 CHECK (id = 1),
-  nom_restaurant TEXT DEFAULT 'O Poeta',
+  nom_restaurant TEXT DEFAULT 'Kwetu',
   logo_url       TEXT,
-  adresse        TEXT DEFAULT '4, Avenue du Cercle, Quartier du Golf, Gombe, Kinshasa, RDC',
-  telephone      TEXT DEFAULT '+243 819 922 909',
-  whatsapp       TEXT DEFAULT '243819922909',
-  horaires       TEXT DEFAULT 'Tous les jours 12h30 - 23h00',
+  adresse        TEXT DEFAULT '88, Avenue Nguma 3, Ngaliema, Kinshasa',
+  telephone      TEXT DEFAULT '+243 892 959 640',
+  whatsapp       TEXT DEFAULT '243892959640',
+  horaires       TEXT DEFAULT 'Lundi - Dimanche 10h00 - 22h30',
   updated_at     TIMESTAMPTZ DEFAULT NOW()
 );
 
@@ -225,7 +225,7 @@ CREATE POLICY "img_delete" ON storage.objects FOR DELETE USING (bucket_id = 'men
 -- ────────────────────────────────────────────────────────────
 
 INSERT INTO public.parametres (id, nom_restaurant, adresse, telephone, whatsapp, horaires)
-VALUES (1, 'O Poeta', '4, Avenue du Cercle, Quartier du Golf, Gombe, Kinshasa, RDC', '+243 819 922 909', '243819922909', 'Tous les jours 12h30 - 23h00')
+VALUES (1, 'Kwetu', '88, Avenue Nguma 3, Ngaliema, Kinshasa', '+243 892 959 640', '243892959640', 'Lundi - Dimanche 10h00 - 22h30')
 ON CONFLICT (id) DO NOTHING;
 
 -- ────────────────────────────────────────────────────────────
