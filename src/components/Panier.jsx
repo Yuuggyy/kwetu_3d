@@ -3,13 +3,13 @@ import { createCommande } from '../lib/supabase';
 
 // ─── Couleurs Kwetu ───────────────────────────────────────
 const C = {
-  primary:    '#1A3A2A',
-  primaryMid: '#2D5E42',
-  gold:       '#B8943F',
-  goldLight:  '#D4AF6A',
-  beige:      '#F5EDD8',
-  cream:      '#FBF8F0',
-  dark:       '#1A1A14',
+  primary:    '#2C4A1E',
+  primaryMid: '#3D6428',
+  gold:       '#8BC34A',
+  goldLight:  '#AED581',
+  beige:      '#F1F8E9',
+  cream:      '#F9FDF5',
+  dark:       '#0A1A06',
   darkSoft:   'rgba(0,0,0,0.52)',
   border:     'rgba(139,195,74,0.20)',
   danger:     '#C0392B',

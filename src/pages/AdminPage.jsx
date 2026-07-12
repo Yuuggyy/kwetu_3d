@@ -16,14 +16,14 @@ const STATUT_NEXT   = { recue: 'en_cours', en_cours: 'terminee' };
 
 // ─── Couleurs marque Kwetu ───────────────────────────────
 const C = {
-  primary:     '#1A3A2A',
-  primaryMid:  '#2D5E42',
+  primary:     '#2C4A1E',
+  primaryMid:  '#3D6428',
   primarySoft: 'rgba(44,74,30,0.08)',
-  gold:        '#B8943F',
-  goldLight:   '#D4AF6A',
-  beige:       '#F5EDD8',
-  cream:       '#FBF8F0',
-  dark:        '#1A1A14',
+  gold:        '#8BC34A',
+  goldLight:   '#AED581',
+  beige:       '#F1F8E9',
+  cream:       '#F9FDF5',
+  dark:        '#0A1A06',
   darkSoft:    'rgba(0,0,0,0.52)',
   border:      'rgba(139,195,74,0.25)',
   success:     '#1E8449',
@@ -49,7 +49,7 @@ function LoginForm({ onLogin }) {
   return (
     <div style={{
       minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center',
-      background: `linear-gradient(160deg, ${C.primary} 0%, #0D2019 50%, #1A1A14 100%)`,
+      background: `linear-gradient(160deg, ${C.primary} 0%, #1A2E10 50%, #0A1A06 100%)`,
       padding: 20,
     }}>
       <div style={{ width: '100%', maxWidth: 420 }}>
